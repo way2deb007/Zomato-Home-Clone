@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    background-image: url('/img/bg.png');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+header {
+    background-color: #e23744; /* Zomato red color */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 150px;
+    height: auto;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+main section {
+    margin-bottom: 50px;
+}
+
+main img {
+    width: 350px;
+    height: 70px;
+}
+
+main p {
+    font-size: 35px;
+    margin-top: 20px;
+    color: #f9f6f6;
+}
+
+main div {
+    margin-top: 30px;
+}
+
+main div svg {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+main div select,
+main div input {
+    width: 250px;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+main div select:focus,
+main div input:focus {
+    border-color: #e23744; /* Zomato red on focus */
+    outline: none;
+}
+
+main div input::placeholder {
+    color: #aaa;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Additional Styling for "About Food Delivery" Section */
+.food-delivery-section {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white for readability */
+    padding: 40px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.food-delivery-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #e23744; /* Zomato red color */
+}
+
+.food-delivery-section p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.food-delivery-section ul {
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.food-delivery-section ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.food-delivery-section ul li::before {
+    content: '✓';
+    margin-right: 10px;
+    color: #e23744; /* Zomato red color */
+}
